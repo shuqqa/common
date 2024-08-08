@@ -1,0 +1,114 @@
+*{
+    font-family: "Exo 2", sans-serif;
+}
+header{
+    text-align: center;
+    padding-top: 8px;
+}
+body{
+    position: relative;
+}
+.collapse{
+    justify-content: end;
+}
+.navbar-brand{
+  float: right;
+}
+
+
+
+.hero_page{
+    height: 400px;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+.left{
+    height:300px;
+    width: 40%;
+    /*background-color:brown ;*/
+    
+}
+.left h1{
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.right{
+    height: 100px;
+    width: 40%;
+    /*background-color: aqua;*/
+}
+.sec_1{
+    text-align: center;
+    /* background-color: beige; */
+}
+div{
+    text-align: center;
+    /* background-color: brown; */
+}
+p{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 90px;
+    padding-left: 80px;
+    
+}
+.footer_list{
+    align-content: normal;
+    text-align: right;
+    margin-top: none;
+    padding-left: 100px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+    list-style: none;
+    font-size: 20px;
+}
+.footer_p{
+    padding-bottom: 20px;
+    text-align: center;
+}
+hr{
+    width: 80%;
+    align: center;
+}
+.chat_icon{
+    text-align: center;
+    position: absolute;
+    color: green;
+    right: 20px;
+    top: 80vh;
+    font-weight: 700;
+    z-index: 10px;
+    position: fixed;
+
+}
+
+
+/* resposiveness */
+@media(max-width:780px) {
+    .hero_page{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+    }
+    .footer_list{
+        flex-direction: column;
+        text-align: center;
+    }
+}
